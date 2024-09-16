@@ -371,26 +371,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-
-
-
-document.getElementById('getStartedButtonn').addEventListener('click', function () {
-  // Redirect to the Google Form URL after clicking the button
-  window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
-})
-
-document.getElementById('getStartedButtonn1').addEventListener('click', function () {
-  // Redirect to the Google Form URL after clicking the button
-  window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
-})
-
-document.getElementById('getStartedButtonn2').addEventListener('click', function () {
-  // Redirect to the Google Form URL after clicking the button
-  window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
-})
-
-/*get started button*/
-document.getElementById('getStartedButtoon').addEventListener('click', function () {
-  // Redirect to the Google Form URL after clicking the button
-  window.location.href = 'https://forms.gle/zcXM6YwiU4bwxmy1A';
-});
+// Function to open the same URL
+function openEnrollForm() {
+  window.location.href = 'https://forms.gle/4kKtHWSqnsgYn37i7'; // Same URL for all buttons
+}
