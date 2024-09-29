@@ -42,7 +42,7 @@
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#programs">Programs</a></li>            
+            <li><a class="nav-link scrollto" href="#programs">Internship</a></li>            
             <li><a class="nav-link scrollto" href="#products">Products</a></li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -68,7 +68,7 @@
               </ul>
             </li>
           
-            <li><button class="getstarted scrollto" id="getStartedButtoon" onclick="openEnrollForm()">Get Started</button></li>
+            <li><button class="getstarted scrollto" id="getStartedButtoon" onclick="getStarted()">Get Started</button></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -82,7 +82,7 @@
         <div class="row justify-content-center">
           <div class="col-xl-7 col-lg-9 text-center">
             <h1>Hirademy is a Platform for  <br> <span id="typed-output"></span> </h1>
-            <h4>Shape your career journey by Participating in <br>our unique tailored mentorship programs</h4>
+            <h4>Shape your career journey by Participating in <br>our unique tailored internship and mentorship programs</h4>
           </div>
         </div>
 
@@ -149,19 +149,19 @@
         </div> -->
 
         <div class="row icon-boxes">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-stack-line"></i></div>
-              <h4 class="title">Mentorship</h4>
-              <p class="description">Get mentored by industry experts to become  industry-ready and strong engineers</p>
-            </div>
-          </div>
-
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="ri-palette-line"></i></div>
               <h4 class="title">Internship</h4>
               <p class="description">Gain real-world product development work experience in a real work environment,<br> Not dummy or fake projects</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-stack-line"></i></div>
+              <h4 class="title">Mentorship</h4>
+              <p class="description">Get mentored by industry experts to become  industry-ready and strong engineers</p>
             </div>
           </div>
 
@@ -190,85 +190,65 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Mentorship-cum-Internship program</h2>
+          <h2>Internship program</h2>
         </div>
-          
+        <h2>Software Engineer Intern:</h2>
         <div class="row content">
           <div class="col-lg-6">
             <h4>Features:</h4>
             <ul>
               <li><i class="ri-check-double-line"></i><b>Real-Product</b> Development Work experience </li>
               <li><i class="ri-check-double-line"></i><b>Research & Development Projects</b></li>
-              <li><i class="ri-check-double-line"></i>Learn Technologies with <b>Practical Knowledge</b></li>
-              <li><i class="ri-check-double-line"></i>Learn Role Specific skills</li>
+              <li><i class="ri-check-double-line"></i>Learn Skills with <b>Practical Knowledge</b></li>
               <li><i class="ri-check-double-line"></i>Team Collaboration in a real-work environment</li>
               <li><i class="ri-check-double-line"></i>Industry Tools usage</li>
-              <li><i class="ri-check-double-line"></i>Learn PSDS, System Design/Architecture </li>
-            </ul>
-            <h4>Duration: 1-5 months</h4>
-            <!--<a href="#" class="btn-learn-more">Learn More</a>-->
-            <button id="getStartedButtonn" onclick="openEnrollForm()">Get Started</button>
+              <li><i class="ri-check-double-line"></i>Career Guidance & Mentorship from <b>Experts/Mentors</b></li>
+              <li><i class="ri-check-double-line"></i>Work experience Letter/Certificate</li>
+
+            </ul>           
           </div>
           <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
               <h4>Eligibility:</h4>
               <ul>
                 <li><i class="ri-check-double-line"></i>Education: B.Tech/M.Tech (CS/IT), MCA, equivalent degrees</li>
-                <li><i class="ri-check-double-line"></i>Good in programming and computer fundamentals</li>
+                <li><i class="ri-check-double-line"></i>Good in programming and computer fundamentals, communication</li>
                 <li><i class="ri-check-double-line"></i>Has Built at-least 1 relevant product/project</li>
                 <li><i class="ri-check-double-line"></i>Should clear the <b>Screening Assignment/Interview</b> at Hirademy</li>
               </ul>
-              <h4>Benefits:</h4>
+              <h4>Selection Process:</h4>
               <ul>
-                <li><i class="ri-check-double-line"></i>Interaction with Sr.Engineers</li>
-                <li><i class="ri-check-double-line"></i>Career Guidance & Mentorship from <b>Experts/Mentors</b></li>
-                <li><i class="ri-check-double-line"></i>Work Experience Letter & LoR</li>
-                <li><i class="ri-check-double-line"></i>Resume & Interview Preparation</li>
-                <li><i class="ri-check-double-line"></i><b>Placements</b> offered at Hirademy</li>
-                <li><i class="ri-check-double-line"></i><b>Support for upto <b>1 year</b></li>
-              </ul> 
+                <li><i class="ri-check-double-line"></i>Screening Assignment and Test</li>
+                <li><i class="ri-check-double-line"></i>Interview - Cultural Fitment</li>
+                <li><i class="ri-check-double-line"></i>Offer Letter to selected candidates</li>
+              </ul>
+              <button id="getStartedButtonn" onclick="applyForSWInternship()">Apply for Software Engineer Internship</button>
           </div>
         </div>
-        <div class="container" data-aos="fade-up">
-          <div class="row">
-            <p class="pricing-text">Fee is collected to encourage and motivate you to stay committed throughout the experience. It also helps us compensate the mentors who will be providing valuable guidance and support to ensure your professional growth.</p>
-            <div class="pricing-table">
-              <!-- Basic Plan -->
-              <div class="plan">
-                <h2>Internship</h2> 
-                <div class="price">₹499/1 month</div>
-                <div class="price">₹999/3 months</div>
-                <div class="price">₹1499/5 months</div>               
-                <ul class="features">
-                  <li>2+ modules development/month</li>
-                  <li>Mentor Guidance</li>
-                  <li>Offical Offer Letter post Assignment</li>
-                  <li>General Certificate</li>
-                </ul>
-
-                <button class="btn" onclick="openEnrollForm()">Get Started</button>
-              </div>
-          
-              <!-- Standard Plan -->
-              <div class="plan">
-                <h2>Mastership</h2>
-                <div class="price">₹999/1 month</div>
-                <div class="price">₹1999/3 months</div>
-                <div class="price">₹2999/5 months</div>
-                <ul class="features">
-                  <li>2+ modules development/month</li>
-                  <li>Mentor Guidance</li>
-                  <li>Offical Offer Letter post Assignment</li>
-                  <li>Detailed Certificate</li>
-                  <li>LoR with Project Details</li>
-                  <li>Access to Free Material</li>
-                  <li>Career Guidance</li>
-                  <li>Placements with support in Interview Preparation</li>
-                </ul>
-                <button class="btn" onclick="openEnrollForm()">Get Started</button>
-              </div>
-            </div>
-            <h5>All plans include Daily team meetings, Mentor interactions and technical Guidance </h5>
-            <h5>for R & D project design, development, testing and deployment</h5>
+        <br>
+        <h2>Other Interns Roles:</h2>
+        <div class="row content">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="ri-check-double-line"></i>HR Recruiter</li>
+              <li><i class="ri-check-double-line"></i>Product Manager</li>
+              <li><i class="ri-check-double-line"></i>Sales Executive</li>
+              <li><i class="ri-check-double-line"></i>Marketing</li>
+              <li><i class="ri-check-double-line"></i>Content Writer</li>
+              <li><i class="ri-check-double-line"></i>and more...</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+              <h4>Eligibility:</h4>
+              <ul>
+                <li><i class="ri-check-double-line"></i>Good in communication skills</li>
+                <li><i class="ri-check-double-line"></i>Knowledge in Computaer usage</li>
+              </ul>
+              <h4>Selection Process:</h4>
+              <ul>
+                <li><i class="ri-check-double-line"></i>Interview - Cultural Fitment</li>
+                <li><i class="ri-check-double-line"></i>Offer Letter to selected candidates</li>
+              </ul> 
+              <button id="getStartedButtonn" onclick="applyForOtherInternship()">Apply for Other Internship Roles</button>
           </div>
         </div>
       </div>
@@ -329,7 +309,7 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="service-box blue">
             <i class="ri-discuss-line icon"></i>
-            <h4>Fitplano Webapp</h4>
+            <h4>Fitplano</h4>
             <p> A web development product to help people generate healthy plans based on Artificial Intelligence</p>
           </div>
         </div>
@@ -363,8 +343,8 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="service-box green">
             <i class="ri-discuss-line icon"></i>
-            <h4>Chatbot to Order Groceries</h4>
-            <p>Artificial Intelligence based Chatbot to help users order the items like Groceries easily in just few seconds, without wasting time in searching for the products</p>
+            <h4>Edutech Platform</h4>
+            <p>Education platform that helps millions of children deelop their learning skills</p>
             
           </div>
         </div>
@@ -372,8 +352,8 @@
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="service-box green">
             <i class="ri-discuss-line icon"></i>
-            <h4>AI based Data Segmentation</h4>
-            <p>Artifical Intelligence based Data Segmentation to help companies segment their customers easily and engage them with their offerings</p>
+            <h4>AI Security</h4>
+            <p>AI based Security platform that helps enterprices detect the threats, anamolies and manage them. Auto recovery solutions</p>
             
           </div>
         </div>
@@ -645,7 +625,7 @@
               <p>
                 We are and excited to help millions of engineers.
               </p>
-              <a href="#" class="btn-learn-more">Learn More</a>
+              <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
             </div>
           </div>
 
@@ -830,7 +810,7 @@
             </div>
             <div class="text-center">
               <!--<button id="getStartedButtonn">Get Started</button><br>     <br>-->
-              <button id="getStartedButtonn2" onclick="openEnrollForm()">Get Started</button>
+              <button id="getStartedButton2" onclick="getStarted()">Get Started</button>
               </div>
           </div>
 
@@ -902,7 +882,7 @@
     <footer id="footer">
 
       <div class="footer-top">
-        <div class="container">
+        <div class="container"> 
           <div class="row">
 
             <div class="col-lg-3 col-md-6 footer-contact">
